@@ -1,0 +1,187 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    font-family:sans-serif , sans-serif;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.top-0 {
+    top: o;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.clearfix {
+    clear: both;
+    display: flow-root;
+    content: " ";
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.t-white {
+    color: white;
+}
+.txt-center{
+    text-align: center;
+}
+.text-1{
+    font-size: 1.2rem;
+}
+
+.text-2{
+    font-size: 2rem;
+}
+
+.text-3{
+    font-size: 3rem;
+}
+
+.text-4{
+    font-size: 5rem;
+}
+.pl-1{
+    padding-left: 1rem;
+}
+.pr-2{
+    padding-right: 2rem;
+}
+.pt-1{
+    padding-top:1rem ;
+}
+.pt-6{
+    padding-top: 4rem;
+}
+.m-2{
+    margin: 2rem 0rem;
+}
+.t-black{
+    color: black;
+}
+.t-lblack{
+    color: rgb(132 133 148);
+}
+header{
+    padding: 2rem 8rem;
+}
+.t-blue{
+    color:rgb(0 82 204);
+}
+.circle-logo{
+    border: 8px solid rgb(0 82 204);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    vertical-align: bottom;
+}
+nav{
+    padding-left: 21rem;
+}
+header a {
+    text-decoration: none;
+}
+nav ul>li{
+    padding: 10px 15px;
+}
+.btn-started{
+    padding: 1rem;
+    color: white;
+     background-color: rgb(0 82 204);
+    border-radius: 2rem;
+    border: none;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+main{
+    height: calc( 100vh - 68px);
+}
+section >div{
+    border: 0.5px solid rgb(212, 202, 202);
+    border-radius: 1rem;
+    /*width: 50%;
+    *//*margin: auto;
+    */padding: 2rem 4rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+ h2 >span{
+    float: right;
+}
+.content-container{
+    width: 60%;
+    margin: auto;
+}
+.end-section{
+    display: table;
+    padding: 0rem 4rem;
+}
+.btn1{
+    height: 3rem;
+    width: 3rem;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn2{
+    height: 3rem;
+    width: 3rem;
+    outline: none;
+    border: none;
+}
